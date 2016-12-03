@@ -8,7 +8,7 @@ Different than most other starter projects, this configuration doesn't need any 
 - For using OpenCV 2.4.11 only a few additional things have to be changed:
   - exchange the library's files in the distribution folder
   - change in the app's build.gradle `abiFilters 'x86', 'x86_64', 'armeabi', 'armeabi-v7a', 'arm64-v8a'` to `abiFilters 'x86', 'armeabi', 'armeabi-v7a'`
-  - change `libopencv_java3.so` to `libopencv_java.so` in the CMakeLists.txt
+  - change `libopencv_java3.so` to `libopencv_java.so` in the CMakeLists.txt
   - change `System.loadLibrary("opencv_java3");` to `System.loadLibrary("opencv_java");` in the MyActivity
 
 Credits:
