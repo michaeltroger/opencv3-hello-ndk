@@ -1,7 +1,7 @@
 # OpenCV 3.1 NDK Starter Project for Android Studio 2
 
 A simple sample application in which the OpenCV 3 API is accessed via native C++ code. 
-Different than most other starter projects, this configuration doesn't need any absolute paths to be set for compiling and is therefore quite flexible.
+Unlike most other starter projects, this configuration doesn't need any absolute paths to be set for compiling and is therefore quite flexible.
 
 - Tested with Android Studio 2.2.2.
 - The OpenCV 3.1 C++ library is included
